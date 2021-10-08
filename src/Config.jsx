@@ -1,3 +1,3 @@
 module.exports = {
-    enderecoapi : "http://localhost:3002"
+    enderecoapi : process.env.REACT_APP_BACKEND_URL
 }
